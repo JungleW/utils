@@ -1,0 +1,28 @@
+.templet-text {
+    width: 80%;
+    margin: 0 auto;
+}
+.templet-text .text-id {
+}
+.templet-text .text-id label{
+    margin-right: 10px;
+}
+.templet-text .text-id input[type="text"]{
+    padding: 5px 2px;
+}
+.templet-text input[type="button"]{
+    padding: 5px 20px;
+}
+.templet-text .text-content{
+}
+.templet-text .text-content label{    
+    display: block;
+    margin: 5px 0;
+}
+.templet-text .text-content textarea{
+    width: 100%;
+}
+.templet-text .tip {
+    color: red;
+    margin-left: 10px;
+}

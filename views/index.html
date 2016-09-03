@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>工具包</title>
+    <link href="css/index.css" rel="stylesheet">
+</head>
+<body>
+    <div class="floor nav-list">
+        <% utils.forEach(function(util){ %>
+            <a class="nav-item" href="<%= util.url %>"><%= util.name %></a>
+        <% }); %>
+    </div>
+</body>
+</html>

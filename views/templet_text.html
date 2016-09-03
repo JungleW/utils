@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>文本暂存工具</title>
+    <link href="css/templet_text.css" rel="stylesheet">
+</head>
+<body>
+    <div class="templet-text">
+        <form>
+            <div class="text-id">
+                <label>文本ID:</label><input id="textId" type="text" placeholder="请输入数字(8位以内)"><input id="accept" type="button" value="获取">
+            </div>
+            <div class="text-content">
+                <label>文本内容</label>
+                <textarea rows="12" id="textContent"></textarea>
+                <input id="submit" type="button" value="提交"><span class="tip" id="tip"></span>
+            </div>
+        </form>
+    </div>
+    <script src="lib/jquery-3.1.0/jquery-3.1.0.min.js"></script>
+    <script src="js/templet_text.js"></script>
+</body>
+</html>
